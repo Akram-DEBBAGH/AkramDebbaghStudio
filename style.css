@@ -1,0 +1,198 @@
+
+
+p{
+
+  margin: 0;
+  padding: 0;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+}
+img.home{
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.contenttext{
+  margin: 0;
+}
+
+.lead{
+  
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+
+}
+.collapse{
+  justify-content: end;
+  margin-right: 20px;
+}
+.logo-nav{
+  height: 30px;
+  margin-left: 24px;
+}
+
+.home{
+  margin-left:20px ;
+  margin-right: 20px ;
+
+}
+
+.btn-home{
+  background-color: #D1A65B;
+}
+
+.btnr:hover{
+  border-color: #000000;
+}
+
+
+
+/*serveces*/
+
+.services{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-services{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 20px 0px;
+}
+
+.services h1{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #D1A65B;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.img-service {
+  width: 250px;
+
+
+}
+
+.container{
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px;
+
+
+  
+}
+
+.container .cardo{
+  text-align: center;
+  transition: all .2s ease-in-out ;
+}
+
+.container .cardo:hover{
+  scale: 1.1;
+  box-shadow: 0 0 7px  #D1A65B;
+}
+
+
+
+
+
+/*Contact*/
+
+.contact {
+    padding: 130px 0;
+}
+
+.contact .heading h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #D1A65B;
+
+}
+
+.contact .heading h2 span {
+    color: #D1A65B;
+}
+
+.contact .heading p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #000000;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+.contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 10px;
+}
+
+.contact button.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #D1A65B;
+    color: #ffffff;
+    width: 100%;
+}
+
+.contact .title h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #D1A65B;
+}
+
+.contact .title p {
+  font-size: 14px;
+ font-weight: 400;
+ color: #000000;
+ line-height: 1.6;
+ margin: 0 0 40px;
+}
+
+.contact .content .info {
+    margin-top: 30px;
+}
+.contact .content .info i {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  color: #02434b;
+  margin-right: 20px;
+ text-align: center;
+ width: 20px;
+}
+.contact .content .info h4 {
+  font-size: 13px;
+  line-height: 1.4;
+    color: #D1A65B;
+}
+
+.contact .content .info h4 span {
+  font-size: 13px;
+  font-weight: 300;
+   color: #000000;
+}
